@@ -65,7 +65,8 @@ header{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0
 .brand svg{color:var(--blue);transform:rotate(-90deg)}
 .prods{display:grid;grid-template-columns:repeat(5,1fr);gap:16px}
 .prod{background:#fff;border:1px solid var(--line);border-radius:3px;padding:16px;display:flex;flex-direction:column;gap:6px}
-.pp{aspect-ratio:3/2;display:grid;place-items:center;margin-bottom:6px}.pp img{width:100%;height:100%;object-fit:contain;mix-blend-mode:multiply}
+.pp{position:relative;aspect-ratio:3/2;margin-bottom:6px}.pp img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;mix-blend-mode:multiply}
+.pp img.sq{inset:0 auto 0 50%;width:auto;height:100%;aspect-ratio:1/1;transform:translateX(-50%);mix-blend-mode:normal;-webkit-mask-image:radial-gradient(circle closest-side,#000 92%,transparent 100%);mask-image:radial-gradient(circle closest-side,#000 92%,transparent 100%)}
 .pb{font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--mut)}
 .prod h3{font-size:13.5px;font-weight:600;line-height:1.35;min-height:2.7em}
 .rt{display:flex;align-items:center;gap:2px;color:var(--blue);font-size:11px}.rt span{color:var(--mut);margin-left:6px}
