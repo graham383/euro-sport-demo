@@ -1,7 +1,7 @@
 # Eurosport Tuning demo: project instructions
 
 Static one-page design demo that follows the supplied mockup (utility bar, header, hero, fitment selector, category tiles, brand tiles, featured products, "difference" section). Everything served is in `public/` (`index.html`, `styles.css`, `site.js`, `images/`). No build step.
-Hosting: Vercel, deployed from this repo's `main` branch. Record the Vercel project name and URL here once connected.
+Hosting: Vercel project `euro-sport-demo` (live at https://euro-sport-demo.vercel.app), deployed from GitHub repo `graham383/euro-sport-demo`, branch `main`. The older `eurosport-tuning-prototype` project is a separate earlier build; do not deploy to it.
 
 ## Deploying
 - Deploy ONLY by committing and pushing to `main` on GitHub. Never use base64/text uploads or any route that re-encodes images.
